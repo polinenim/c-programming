@@ -2,6 +2,7 @@
 int main()
 {  
     char s[11];
+    printf("ENTER THE NAME\T");
     scanf("%s",s); 
     int i = 0;   
     int vowel= 0;  
