@@ -6,7 +6,7 @@ void insert(char a);
 void delete();
 int main()
 {
-	char a[10],mid;
+	char a[10],m;
 	int i;
 	printf("enter the string:");
 	scanf("%s",a);
@@ -16,7 +16,7 @@ int main()
 		insert(a[i]);
 	}
 	
-	mid=a[n];
+	m=a[n];
 	r=r-1;
 	for(i=0;i<=r;i++)
 	{
@@ -31,7 +31,7 @@ int main()
 			break;
 		}
 	}
-	if(q[f]==mid)
+	if(q[f]==m)
 	{
 		printf("palindrome");
 	}
