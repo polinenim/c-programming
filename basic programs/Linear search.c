@@ -6,10 +6,10 @@ int main()
 	scanf("%d",&b);
 	for(i=0;i<b;i++)
 	{
-		printf("enter the values");
+		printf("enter the  values");
 	    scanf("%d",&a[i]);
     }
-    printf("enter the number to search");
+    printf("enter the  number to search");
 	scanf("%d",&search);
 	for(i=0;i<b;i++)
 	{
