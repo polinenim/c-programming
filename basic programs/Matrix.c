@@ -2,7 +2,7 @@
 int main()
 {
 	int i,j,r,c;
-	printf("enter the size of row");
+	printf("enter the size of a row");
 	scanf("%d",&r);
 	printf("enter the size of column");
 	scanf("%d",&c);
