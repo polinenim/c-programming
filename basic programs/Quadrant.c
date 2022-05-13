@@ -20,7 +20,7 @@ int main()
 	}
 	else if(x>0 && y<0)
 	{
-		printf("Fourth quadrant");
+		printf("Fourth  quadrant");
 	}
 	else if(x==0 && y==0)
 	{
