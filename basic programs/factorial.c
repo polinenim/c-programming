@@ -1,14 +1,15 @@
 #include<stdio.h>
+long long fact(int num){
+  if (num == 0)
+    return 1;
+  else
+    return(num * fact(num-1));
+}
 int main()
 {
-	int n,f=1,i=1;
-    printf("enter the number");
-    scanf("%d",&n);
-    while(i<=n)
-    {
-		    f=f*i;
-        i=i+1;
-    }
-    printf("the factorial of a number is: %d",f);
-    return 0;
+ int num;
+ printf("Enter a whole number to find Factorial = ");
+ scanf("%d",&num);
+  printf("Factorial of %d is: %llu",num,fact(num));
+return 0;
 }
