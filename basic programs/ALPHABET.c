@@ -13,9 +13,12 @@ int main() {
       digit++;
     else if (isalpha(str[i]))
       alpha++;
+      
     else
       specialChar++;
     }
    printf("alphabets = %d, digits = %d, specialChars = %d ", alpha, digit, specialChar);
    return 0;
 }
+
+
